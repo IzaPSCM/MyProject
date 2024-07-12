@@ -1,0 +1,20 @@
+# Inserção de dados...
+print ("Digite o seu nome:")
+MyName = str(input())
+print("Digite a sua idade:")
+Myage = int(input())
+print("Digite a sua altura:")
+MyHeigh = float(input())
+
+# Declaração de variáveis...
+MyClub = "Flamengo"
+MyAccount = 1234567.9
+MyCar = "Bentley Batur"
+MyWeight = 38
+
+# Exibição do conteúdo das variáveis...
+print(f"Meu nome é {MyName}.")
+print(f"Minha altura é de{MyHeigh}metros.")
+print(f"Minha idade é {Myage}anos.")
+print(f"Meu clube de coração é {MyClub}.")
+print(f"Tenho na conta R${MyAccount}.")
